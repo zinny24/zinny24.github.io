@@ -12,15 +12,6 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
     <!-- slick slider 스타일 필수 모듈 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>
-    $(function () {
-        $(".counter").counterUp({
-           delay:10, time:500
-        });
-    });
-
-	</script>
     
     <style>
         /* 해상도가 가장 작은 화면부터 작업 320px*/
@@ -767,7 +758,7 @@
 <!-- Anchor 메뉴 -->
 <div id="easy-top">TOP</div>
 <!-- Anchor 메뉴 끝-->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 
@@ -776,6 +767,11 @@
 <!-- slick slider 필수 모듈 -->
 
 <script>
+    $(function () {
+        $(".counter").counterUp({
+           delay:10, time:500
+        });
+    });
     
     /****** anchor jquery ******/
     /***** 세로 600px 밑으로 스크롤 했을 때 메뉴 나타남 *****/
