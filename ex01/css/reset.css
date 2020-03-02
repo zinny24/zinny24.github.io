@@ -1,0 +1,60 @@
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+a {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+iframe {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+button {
+	border: currentColor; border-image: none;
+}
+input {
+	border: currentColor; border-image: none;
+}
+textarea {
+	border: currentColor; border-image: none;
+}
+div::after {
+	clear: both; display: table; content: "";
+}
+body {
+	font-family: "Roboto", sans-serif;
+}

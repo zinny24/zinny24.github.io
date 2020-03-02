@@ -1,0 +1,420 @@
+#wrap {
+	width: 100%;
+}
+body {
+	width: 100%; height: 100%; background-color: rgb(240, 240, 240);
+}
+#header {
+	width: 100%; background-color: rgb(255, 255, 255);
+}
+.util-full {
+	width: 100%; height: 35px; background-color: rgb(255, 255, 255);
+}
+.util-wrap {
+	margin: 0px auto; width: 1280px;
+}
+.util-wrap ul {
+	float: right;
+}
+.util-wrap ul li {
+	padding: 0px 8px; line-height: 35px; float: left;
+}
+.util-wrap ul li a {
+	color: rgb(0, 0, 0); font-family: "K2D", sans-serif; font-size: 12px;
+}
+.util-wrap form {
+	position: relative;
+}
+.util-search-box {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(204, 204, 204); padding: 3px 3px 3px 5px; border-image: none; width: 150px; height: 15px; font-family: "Nanum Gothic", sans-serif; font-size: 12px; box-sizing: border-box;
+}
+.util-wrap i {
+	top: 10px; right: 5px; color: rgba(0, 0, 0, 0.5); position: absolute; cursor: pointer;
+}
+.logo-full {
+	width: 100%; height: 100px;
+}
+.logo-wrap {
+	margin: 0px auto; width: 1280px; display: flex;
+}
+.logo-left {
+	flex:2 1 0px; line-height: 100px;
+}
+.logo-right {
+	flex:2 1 0px; line-height: 100px;
+}
+.logo-left ul {
+	float: right;
+}
+.logo-left li {
+	float: left;
+}
+.logo-right li {
+	float: left;
+}
+.logo-left li {
+	padding: 0px 15px;
+}
+.logo-right li {
+	padding: 0px 15px;
+}
+.logo-left li a {
+	color: rgb(0, 0, 0); font-size: 16px; font-weight: bold;
+}
+.logo-right li a {
+	color: rgb(0, 0, 0); font-size: 16px; font-weight: bold;
+}
+.logo-right li:last-child a {
+	color: rgb(221, 59, 30);
+}
+.logo-mid {
+	flex:1 1 0px; text-align: center; line-height: 94px;
+}
+.logo-mid h1 {
+	font-size: 35px;
+}
+.logo-mid h1 a {
+	color: rgb(0, 0, 0);
+}
+.logo-mid span {
+	color: tomato;
+}
+.gnb-full {
+	width: 100%; height: 40px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.gnb-wrap {
+	margin: 0px auto; width: 1280px; text-align: center;
+}
+.gnb ul li {
+	padding: 0px 25px; line-height: 40px; display: inline-block;
+}
+.gnb ul li a {
+	transition:0.3s; color: rgba(0, 0, 0, 0.8); font-weight: 300;
+}
+.gnb ul li:hover a {
+	color: tomato;
+}
+#section-main {
+	margin: 20px 0px; width: 100%;
+}
+.section-main-full {
+	width: 100%;
+}
+.section-main-wrap {
+	margin: 0px auto; width: 1280px; height: 400px; overflow: hidden; position: relative; background-color: rgb(170, 170, 170);
+}
+.angle {
+	top: 50%; color: rgba(255, 255, 255, 0.6); font-size: 50px; position: absolute; z-index: 9999; cursor: pointer; transform: translateY(-50%);
+}
+.angle-left {
+	left: 10px;
+}
+.angle-right {
+	right: 10px;
+}
+.main-item-container {
+	left: 0px; top: 0px; width: 3840px; position: absolute;
+}
+.section-main-wrap img {
+	width: 1280px; float: left;
+}
+#section {
+	width: 100%; margin-top: 20px;
+}
+.section-full {
+	width: 100%;
+}
+.section-wrap {
+	margin: 0px auto; width: 1280px; overflow: hidden; font-size: 0px;
+}
+.section-wrap > div {
+	font-size: 14px; vertical-align: top; display: inline-block;
+}
+.section-left {
+	padding: 20px 30px; box-sizing: border-box;
+}
+.section-item-wrap {
+	padding: 20px 30px; box-sizing: border-box;
+}
+.best-item-wrap {
+	padding: 20px 30px; box-sizing: border-box;
+}
+.hot-item-wrap {
+	padding: 20px 30px; box-sizing: border-box;
+}
+.section-right-main {
+	padding: 20px 30px; box-sizing: border-box;
+}
+.section-left {
+	width: 250px; height: 570px; margin-right: 20px; background-color: rgb(255, 255, 255);
+}
+.section-left h2 {
+	text-align: center; font-size: 18px; margin-bottom: 10px;
+}
+.section-left h3 {
+	line-height: 2; font-size: 16px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.section-left ul {
+	margin-top: 5px; margin-bottom: 10px;
+}
+.accordion-hide {
+	display: none;
+}
+.section-left li {
+	line-height: 1.7;
+}
+.section-left li a {
+	transition:0.5s; color: rgba(0, 0, 0, 0.8); font-size: 13px;
+}
+.section-left li:hover a {
+	color: tomato;
+}
+.section-left i {
+	font-size: 16px; margin-top: 9px; float: right;
+}
+.section-right {
+	width: 1010px;
+}
+.section-right i {
+	color: tomato; -ms-zoom: 0.9;
+}
+.section-item-wrap i {
+	color: tomato; -ms-zoom: 0.9;
+}
+.section-right h2 {
+	font-size: 18px;
+}
+.section-right-top {
+	width: 100%;
+}
+.section-right-main {
+	width: 100%;
+}
+.section-right-top {
+	display: flex; justify-content: space-between;
+}
+.section-right-top > div {
+	height: 280px; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.best-item-wrap {
+	flex:3 1 0px; margin-right: 10px;
+}
+.hot-item-wrap {
+	flex:1 1 0px;
+}
+.section-right-main {
+	height: 280px; background-color: rgb(255, 255, 255);
+}
+.best-item {
+	width: 100%; height: 180px; overflow: hidden; position: relative; cursor: pointer;
+}
+.hot-item {
+	width: 100%; height: 180px; overflow: hidden; position: relative; cursor: pointer;
+}
+.sale-item {
+	width: 100%; height: 180px; overflow: hidden; position: relative; cursor: pointer;
+}
+.section-right .overlay {
+	padding: 50px 20px; width: 100%; height: 180px; font-size: 14px;
+}
+.overlay {
+	transition:0.3s; left: 0px; top: 0px; text-align: center; color: rgb(255, 255, 255); position: absolute; box-sizing: border-box; opacity: 0; background-color: rgb(0, 0, 0);
+}
+.overlay:hover {
+	opacity: 0.6;
+}
+.overlay span {
+	left: 50%; top: 50%; position: absolute; transform: translate(-50%, -50%);
+}
+.banner-full {
+	padding: 5px 0px; width: 100%; margin-top: 10px;
+}
+.banner-wrap {
+	margin: 0px auto; width: 1280px; cursor: pointer;
+}
+.banner-wrap img {
+	width: 100%;
+}
+#section-item {
+	margin: 10px 0px 30px; width: 100%;
+}
+.section-item-full {
+	width: 100%;
+}
+.section-item-wrap {
+	margin: 0px auto; width: 1280px; background-color: rgb(255, 255, 255);
+}
+.section-item-title {
+	width: 100%; text-align: justify; position: relative;
+}
+.section-item-title > div {
+	display: inline-block;
+}
+.section-item-title h2 {
+	line-height: 2; font-size: 18px;
+}
+.section-item-title ul {
+	top: 10px; right: 0px; position: absolute;
+}
+.section-item-title li {
+	padding: 0px 3px; color: rgba(0, 0, 0, 0.6); float: left;
+}
+.section-item-title li a {
+	color: rgba(0, 0, 0, 0.6); font-family: "Nanum Gothic", sans-serif; font-size: 12px;
+}
+.item-wrap {
+	padding: 10px 0px; display: flex; box-sizing: border-box; justify-content: space-between;
+}
+.item-wrap > div {
+	padding: 8px; border: 1px solid rgb(238, 238, 238); flex:1 1 0px; border-image: none; height: 200px; margin-top: 6px; margin-right: 20px; box-sizing: border-box;
+}
+.item-wrap > div:last-child {
+	margin-right: 0px;
+}
+.item-wrap img {
+	width: 100%;
+}
+.items {
+	padding: 10px 0px; display: flex; justify-content: space-between;
+}
+.items > div {
+	flex:1 1 0px; height: 380px;
+}
+.items > div {
+	margin-right: 15px;
+}
+.items > div:last-child {
+	margin-right: 0px;
+}
+.item {
+	padding: 15px; border: 1px solid rgb(238, 238, 238); border-image: none; font-size: 12px; box-sizing: border-box; background-color: rgb(255, 255, 255);
+}
+.item > div:first-child {
+	height: 275px; overflow: hidden; cursor: pointer;
+}
+.item img {
+	width: 100%;
+}
+.item-ment {
+	padding: 5px; box-sizing: border-box;
+}
+.item span {
+	margin-right: 5px; vertical-align: middle; display: inline-block;
+}
+.item p:first-child {
+	height: 48px; color: rgba(0, 0, 0, 0.7); line-height: 1.5; cursor: pointer;
+}
+.price {
+	line-height: 2; font-weight: bold;
+}
+.price del {
+	color: rgba(0, 0, 0, 0.5); margin-right: 5px;
+}
+.price::before {
+	width: 100px; height: 1px; display: block; content: ""; background-color: rgb(204, 204, 204);
+}
+.item-bar-wrap {
+	margin: 30px auto 80px; width: 1280px; text-align: center;
+}
+.item-bar {
+	font-size: 0px;
+}
+.item-bar > p {
+	font-size: 14px; display: inline-block;
+}
+.item-bar ul {
+	font-size: 14px; display: inline-block;
+}
+.item-bar li {
+	font-size: 14px; display: inline-block;
+}
+.item-bar > p {
+	vertical-align: top;
+}
+.item-bar ul {
+	vertical-align: top;
+}
+.item-bar ul {
+	font-size: 0px;
+}
+.item-bar li {
+	width: 32px; height: 32px; text-align: center; color: rgb(98, 98, 98); padding-top: 8px; font-family: "Nanum Gothic", sans-serif; font-size: 12px; border-top-color: rgb(224, 224, 224); border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; box-sizing: border-box; background-color: rgb(255, 255, 255);
+}
+.item-bar a:first-child li {
+	background-color: rgb(238, 238, 238);
+}
+.item-bar a:last-child li {
+	border-right-color: rgb(224, 224, 224); border-right-width: 1px; border-right-style: solid;
+}
+#footer {
+	width: 100%; background-color: rgb(255, 255, 255);
+}
+.footer-full {
+	width: 100%;
+}
+.footer-wrap {
+	margin: 0px auto; padding: 20px; width: 1280px; display: flex;
+}
+.footer-wrap > div {
+	padding: 20px 0px; height: 200px; box-sizing: border-box;
+}
+.footer-left {
+	flex:1.8 1 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+.footer-left-title > h2 {
+	font-size: 18px;
+}
+.footer-left-title > h2 > span {
+	color: tomato;
+}
+.footer-left-title > p {
+	font-size: 12px;
+}
+.footer-left-main {
+	display: flex;
+}
+.footer-left-menu {
+	flex:1 1 0px; margin-top: 10px;
+}
+.footer-left-with {
+	flex:1 1 0px; margin-top: 10px;
+}
+.footer-left-social {
+	flex:1 1 0px; margin-top: 10px;
+}
+.footer-left-menu {
+	flex:2 1 0px;
+}
+.footer-left-main p {
+	color: rgba(0, 0, 0, 0.7); line-height: 1.5; font-family: "Nanum Gothic", sans-serif; font-size: 12px;
+}
+.footer-right p {
+	color: rgba(0, 0, 0, 0.7); line-height: 1.5; font-family: "Nanum Gothic", sans-serif; font-size: 12px;
+}
+.footer-left-main h3 {
+	color: rgba(0, 0, 0, 0.7); line-height: 2; font-size: 14px;
+}
+.footer-right h3 {
+	color: rgba(0, 0, 0, 0.7); line-height: 2; font-size: 14px;
+}
+.footer-left-main a {
+	color: rgba(0, 0, 0, 0.7);
+}
+.footer-right a {
+	color: rgba(0, 0, 0, 0.7);
+}
+.footer-left-social i {
+	font-size: 18px; margin-right: 5px;
+}
+.footer-right {
+	flex:1 1 0px; margin-left: 20px; box-sizing: border-box;
+}
+.footer-right-menu {
+	font-size: 0px;
+}
+.footer-right-menu > a {
+	border-radius: 50%; border: 1px solid rgb(204, 204, 204); border-image: none; width: 60px; height: 60px; text-align: center; color: rgba(0, 0, 0, 0.5); padding-top: 15px; font-size: 20px; margin-top: 12px; margin-right: 10px; display: inline-block; position: relative; box-sizing: border-box;
+}
+.footer-right .overlay {
+	border-radius: 50%; width: 60px; height: 60px; padding-top: 20px; font-size: 12px;
+}

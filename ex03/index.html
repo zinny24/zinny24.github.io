@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Responsive One Page Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <ul>
+                    <li>HOME</li>
+                    <li>COMPANY</li>
+                    <li>PORTFOLIO</li>
+                    <li>PRICE</li>
+                    <li>CONTACT</li>
+                </ul>
+                <span class="trigger">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </nav>
+            
+            <div class="header-section">
+                <h1>Header Section</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsa, vel, quibusdam suscipit in voluptates consequuntur perferendis voluptatibus eligendi accusantium ut odit sit, repellat eum doloremque optio ullam adipisci recusandae. Iusto, ex consequuntur quis hic qui soluta, esse perspiciatis fuga amet dolores ipsam cumque! Magnam ut, alias sit quia, aspernatur laudantium esse. Facilis nesciunt placeat, sunt sequi quas aut eum sapiente, accusamus suscipit cum voluptates quibusdam doloremque rerum blanditiis provident tempore. Distinctio provident debitis, tenetur? Necessitatibus earum officia laudantium repudiandae fuga natus neque nemo. A quas, ab ipsa, perspiciatis tempore quibusdam, delectus in quae minima similique expedita placeat, odit nostrum.</h2>
+                <a href="" class="header-btn">Click Here!</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-one">
+            <div class="container">
+                <div class="section-text">
+                    <h2>SIMPLE & PURE TEXT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aspernatur, mollitia voluptatem ipsa suscipit. Autem suscipit molestiae beatae, unde tempora est ipsam sunt nemo, hic, voluptatibus odio vitae libero? Eum, earum eaque eligendi odio laboriosam alias, dolore a magnam molestiae totam natus excepturi expedita hic atque consequatur accusantium necessitatibus voluptas rem ab sunt vitae perferendis aliquam facilis. Amet, libero dolor culpa quo delectus quod, fugit doloribus magni nemo nesciunt, error sit eveniet iusto nostrum distinctio vel quibusdam! Beatae natus repellendus illo similique! Veritatis, dolorum, voluptates. Cumque assumenda provident rem excepturi quia tenetur, quisquam perspiciatis nobis doloribus dignissimos, neque, dicta corporis?</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="container">
+                <div class="section-icons">
+                    <div class="icon">
+                        <i class="fas fa-history"></i>
+                        <div class="linear"></div>
+                        <h3>Free Clock</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse veniam voluptatum, explicabo voluptates nam possimus modi ullam aspernatur adipisci molestias! Laborum, officiis temporibus consequatur culpa eligendi provident nemo aperiam! Natus eum incidunt ipsa praesentium corrupti quidem sint ad, eos beatae.</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="linear"></div>
+                        <h3>Increasing Chart</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vero aspernatur accusamus iure consequatur quis assumenda iste similique perferendis fugiat, dolor eaque sapiente commodi cumque mollitia natus quaerat voluptatibus dignissimos voluptatum voluptates, nisi amet nobis ratione. Deleniti saepe voluptates nemo!</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="linear"></div>
+                        <h3>Computer System</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius minima non perspiciatis possimus, aspernatur voluptatem natus sequi voluptates fuga temporibus illum dolorum impedit officiis! Nam nisi ut soluta cupiditate, inventore qui eveniet deserunt quo neque, consequuntur porro, vero nobis?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="container">
+                <div class="portfolio-text">
+                    <h2>Portfolio Images</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque at corporis explicabo, ipsum neque quidem.</p>
+                </div>
+                <div class="portfolio-photo">
+                    <img src="https://source.unsplash.com/300x200/?food" alt="">
+                    <img src="https://source.unsplash.com/300x200/?cook" alt="">
+                    <img src="https://source.unsplash.com/300x200/?restaurant" alt="">
+                    <img src="https://source.unsplash.com/300x200/?dish" alt="">
+                    <img src="https://source.unsplash.com/300x200/?tomato" alt="">
+                    <img src="https://source.unsplash.com/300x200/?steak" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-text">
+                <h2>CONTACT US</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus esse rem, hic incidunt, quia officiis?</p>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Email" class="email">
+                <input type="text" placeholder="Name" class="name">
+                <textarea class="content" placeholder="Content"></textarea>
+                <div class="footer-btn">
+                    <input type="submit" value="submit" class="footer-submit">
+                </div>
+            </form>
+        </div>
+    </footer>
+    <button class="arr01" type="button"></button>
+</body>
+<script>
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 700) {
+            $('.arr01').fadeIn(50);
+        } else {
+            $('.arr01').fadeOut(0);
+        }
+    });
+    
+    $(".arr01").click(function () {
+        $("html, body").animate({ 
+            scrollTop:0 
+            }, { duration : 50 });
+    });
+});
+</script>
+</html>

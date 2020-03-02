@@ -1,0 +1,92 @@
+@charset 'utf-8';
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+ul,
+li,
+input,
+form,
+p,
+address,
+a,
+table,
+tr,
+td,
+caption,
+button,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+img {
+    page-break-inside: avoid;
+}
